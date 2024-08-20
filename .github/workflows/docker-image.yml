@@ -27,7 +27,8 @@ jobs:
         with:
           context: .
           push: true
-          tags: yourdockerhubusername/your-repo:latest
+          tags: miriamwisky/flask-app:latest
+
 
       - name: Log out of DockerHub
         run: docker logout
